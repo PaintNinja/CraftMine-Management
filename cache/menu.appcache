@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# for menu.htm
+# v1.00
+/menu.htm
+/img/logo.png
+
+FALLBACK:
+http://www.technicpack.net/modpack/details/craftmine.3370
+http://theisla.enjin.com/craftmine
+http://theisla.enjin.com
