@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html manifest="cache/menu.appcache">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>CraftMine Management menu</title>
+		
+		<link rel="dns-prefetch" href="http://www.technicpack.net"/>
+		<link rel="dns-prefetch" href="http://theisla.enjin.com/"/>
+		<link rel="prefetch" href="http://www.technicpack.net/modpack/details/craftmine.3370">
+		<link rel="prefetch" href="http://theisla.enjin.com">
+		<link rel="prefetch" href="http://theisla.enjin.com/craftmine">
+		<style>
+			body {
+				background-image:url("../img/bg.min.jpg");
+				background-attachment:fixed;
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat;
+				background-color:#fff;
+				font-family: Arial, sans-serif;
+				margin: 1em
+			}
+			.column1 {
+				margin-top:50px
+			}
+			.mainContent {
+				background-color:rgba(236,240,241,1.0);
+				padding-left:80px;
+				padding-right:80px;
+				max-width:720px;
+				margin: 80px auto
+			}
+			.center {
+				text-align:center;
+				font-size: 16pt
+			}
+			.defaultButton {
+				padding-top: 8px;
+				padding-bottom: 10px;
+				padding-left: 12px;
+				padding-right: 12px;
+				font-family: "Segoe UI", Arial, sans-serif;
+				font-size: 11pt;
+				font-weight: 600;
+				color: #FFFFFF;
+				border-style: solid;
+				min-width:32px;
+			}	 
+			.Button1 {
+				background-color: #2A7DEE;
+				border-color: #2A7DEE;
+				margin-top:4px
+			}
+			.Button1:hover {
+				background-color: #5A94F1;
+				border-color: #5A94F1;
+			}
+			.Button1:active {
+				background-color: #000000;
+				border-color: #000000;
+			}
+			.Button2 {
+				background-color:gray;
+				border-color:gray;
+				margin-top:4px
+			}
+			.Button2:hover {
+				background-color: #B3B6B6;
+				border-color: #B3B6B6;
+			}
+			.Button2:active {
+				background-color: #000000;
+				border-color: #000000;
+			}
+		</style>
+	</head>
+	<body>
+	<div id="contentContainer" class="mainContent">
+		<div class="column1" id="column1">
+			<img src="img/logo.png" alt="CraftMine logo" height="115" width="720">
+			<div id="sublogo" class="center">Management menu</div>
+			<br/>
+			<br/>
+			<h2>Community management</h2>
+			<button id="Button1" class="defaultButton Button1" onclick="location.href='http://www.technicpack.net/modpack/details/craftmine.3370'">Technic Platform</button>
+			<button id="Button2" class="defaultButton Button2" onclick="location.href='http://theisla.enjin.com/craftmine'">CraftMine website</button>
+			<button id="Button1" class="defaultButton Button1" onclick="location.href='http://theisla.enjin.com/'">Server website</button>
+			<br/>
+			<h2>CraftMine SDK</h2>
+			<button id="Button1" class="defaultButton Button1" onclick="location.href='WaveAPI:,Launch,CraftMineSDK,40,root'">Open root</button>
+			<button id="Button2" class="defaultButton Button2" onclick="location.href='WaveAPI:,Launch,CraftMineSDK,40,mods'">Open mods</button>
+			<button id="Button1" class="defaultButton Button1" onclick="location.href='WaveAPI:,Launch,CraftMineSDK,40,textures'">Open textures</button>
+			<button id="Button2" class="defaultButton Button2" onclick="location.href='WaveAPI:,Launch,CraftMineSDK,40,instance,root'">Open instance root</button>
+			<button id="Button1" class="defaultButton Button1" onclick="location.href='WaveAPI:,Launch,CraftMineSDK,40,instance,mods'">Open instance mods</button>
+			<button id="Button2" class="defaultButton Button2" onclick="location.href='WaveAPI:,Launch,CraftMineSDK,40,instance,textures'">Open instance textures</button>
+			<br/>
+			<br/>
+		</div>
+	</div>
+	</body>
+</html>
