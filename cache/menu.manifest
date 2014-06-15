@@ -1,10 +1,9 @@
 CACHE MANIFEST
 # for menu.htm
-# v1.01
+# v1.02
 /img/logo.png
-
-FALLBACK:
-/menu.htm
-http://www.technicpack.net/modpack/details/craftmine.3370
-http://theisla.enjin.com/craftmine
-http://theisla.enjin.com
+http://cdn.technicpack.net/platform/pack-logos/3370.png
+https://dl.dropboxusercontent.com/u/88343325/CraftMine/New/CraftMineXL.png
+https://dl.dropboxusercontent.com/u/88343325/CraftMine/New/slogan.png
+http://www.technicpack.net/js/bootstrap.js
+http://www.technicpack.net/js/jquery-1.9.0.min.js
